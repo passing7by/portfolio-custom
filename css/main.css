@@ -560,7 +560,10 @@ footer .copyright {
 
   .skills .skills__wrapper .skills__content {
     flex-direction: column;
-    row-gap: 2.2rem;
+    row-gap: 2.7rem;
+  }
+  .skills .skills__wrapper .skills__content + .skills__content {
+    margin-top: 3rem;
   }
   .skills .skills__wrapper .skills__content .skills__name {
     margin: 0 auto;
