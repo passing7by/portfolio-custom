@@ -549,6 +549,10 @@ footer .copyright {
     line-height: 3.4rem;
     transition: 0.5s;
   }
+  #header .inner ul li:hover {
+    animation: none;
+  }
+
   #header .hamburgerBtn {
     display: flex;
     position: relative; 
