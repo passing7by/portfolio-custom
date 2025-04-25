@@ -576,6 +576,12 @@ footer .copyright {
     bottom: 3rem;
     right: 1.7rem;
   }
+
+  #readmeModal .modal-content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
 }
 
 @keyframes move-up {
