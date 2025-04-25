@@ -1,3 +1,9 @@
+// footer에 현재 연도를 자동으로 업데이트
+const footerYear = document.querySelector('footer .inner .copyright span');
+let thisYear = new Date().getFullYear();
+
+footerYear.textContent = thisYear;
+
 // ScrollMagic 사용
 const spyEls = document.querySelectorAll('section.scroll-spy')
 console.log(spyEls);
