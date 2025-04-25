@@ -264,7 +264,7 @@ section {
 }
 .skills .skills__wrapper .skills__content {
   display: flex;
-  column-gap: 2.5rem;
+  column-gap: 3.7rem;
 }
 .skills .skills__wrapper .skills__content ul {
   margin: auto 0;
@@ -272,8 +272,14 @@ section {
 .skills .skills__wrapper .skills__content .skills__name,
 .skills .skills__wrapper .skills__content ul {
   display: flex;
-  column-gap: 0.6rem;
   flex-wrap: wrap;
+  width: 8.3rem;
+}
+.skills .skills__wrapper .skills__content .skills__name {
+  column-gap: 1.1rem;
+}
+.skills .skills__wrapper .skills__content ul {
+  column-gap: 0.6rem;
 }
 .skills .skills__wrapper .skills__content + .skills__content {
   margin-top: 1.7rem;
@@ -284,7 +290,7 @@ section {
   height: 0.8rem;
 }
 .skills .skills__wrapper .skills__content .skills__name img {
-  height: 2.5rem;
+  width: 2.2rem;
   vertical-align: middle;
 }
 .skills .skills__wrapper .skills__content ul {
